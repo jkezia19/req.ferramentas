@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace ReqFerramentas
 {
-    public partial class Form1 : Form
+    public partial class frmColaboradores : Form
     {
-        public Form1()
+        public frmColaboradores()
         {
             InitializeComponent();
-        }
-
-        private void btGerir_Click(object sender, EventArgs e)
-        {
-            frmColaboradores frm = new frmColaboradores();
-            frm.ShowDialog();
         }
     }
 }
