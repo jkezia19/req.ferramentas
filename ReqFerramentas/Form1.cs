@@ -28,5 +28,11 @@ namespace ReqFerramentas
             frmFerramentas frm = new frmFerramentas();
             frm.ShowDialog();
         }
+
+        private void btRequisições_Click(object sender, EventArgs e)
+        {
+            frmrequerimentos frm = new frmrequerimentos();
+            frm.ShowDialog();
+        }
     }
 }
